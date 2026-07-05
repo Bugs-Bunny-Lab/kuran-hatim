@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası – Kuran Hatim</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F5F1EA;
+      color: #1C1C1A;
+      line-height: 1.7;
+    }
+    header {
+      background: #2C2C2A;
+      color: #EDE8DF;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 800; letter-spacing: 0.5px; }
+    header p  { margin-top: 8px; font-size: 14px; color: #9E9589; }
+    main {
+      max-width: 760px;
+      margin: 40px auto;
+      padding: 0 24px 80px;
+    }
+    .card {
+      background: #F0EBE2;
+      border-radius: 20px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      box-shadow:
+        4px 4px 10px #CEC8BE,
+        -4px -4px 10px #FAEEF6;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #2C2C2A;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 .num {
+      background: #2C2C2A;
+      color: #EDE8DF;
+      width: 28px; height: 28px;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 800; flex-shrink: 0;
+    }
+    p { font-size: 14px; color: #6B6457; margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+    a { color: #2C2C2A; font-weight: 600; }
+    .badge {
+      display: inline-block;
+      background: #E4DDD3;
+      border-radius: 8px;
+      padding: 4px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #4A4844;
+      margin-bottom: 12px;
+    }
+    .lang-switch {
+      text-align: center;
+      margin: 32px 0 8px;
+    }
+    .lang-switch button {
+      background: #2C2C2A;
+      color: #EDE8DF;
+      border: none;
+      border-radius: 12px;
+      padding: 10px 24px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.3px;
+    }
+    .section { display: none; }
+    .section.active { display: block; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: #9E9589;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📖 Kuran Hatim</h1>
+  <p>Bugs Bunny Lab · Son güncelleme: 6 Temmuz 2026</p>
+</header>
+
+<main>
+  <div class="lang-switch">
+    <button onclick="switchLang()">🌐 Switch to English</button>
+  </div>
+
+  <!-- TÜRKÇE -->
+  <div id="tr" class="section active">
+    <div class="card">
+      <h2><span class="num">1</span> Genel Bakış</h2>
+      <p>Kuran Hatim uygulaması, Bugs Bunny Lab tarafından geliştirilmiştir. Bu gizlilik politikası, uygulamayı kullanırken hangi verilerin toplandığını ve nasıl kullanıldığını açıklamaktadır.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">2</span> Toplanan Veriler</h2>
+      <span class="badge">📱 Yalnızca cihazınızda</span>
+      <p>Uygulama aşağıdaki verileri yalnızca <strong>cihazınızda yerel olarak</strong> saklar:</p>
+      <p>• Hatim ilerleme bilgisi (hangi ayette olduğunuz)<br>
+         • Bildirim tercihleri (açık/kapalı)<br>
+         • Tamamlanan hatim sayısı</p>
+      <p>Bu veriler sunucularımıza iletilmez, üçüncü taraflarla paylaşılmaz. Hesap oluşturma gerekmez.</p>
+      <br>
+      <span class="badge">📢 Reklam (Google AdMob)</span>
+      <p>Uygulama, Google AdMob aracılığıyla reklam göstermektedir. AdMob; cihaz bilgileri ve reklam kimliği toplayabilir. Detaylar için: <a href="https://policies.google.com/privacy" target="_blank">Google Gizlilik Politikası</a></p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">3</span> Bildirimler</h2>
+      <p>Uygulama, Kuran ayetlerini iletmek amacıyla yerel bildirimler gönderir. Bu bildirimler yalnızca cihazınızda oluşturulur, dış sunuculara veri gönderilmez. Bildirimleri istediğiniz zaman cihaz ayarlarından kapatabilirsiniz.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">4</span> İnternet Bağlantısı</h2>
+      <p>Uygulama, Kuran metinleri için internet bağlantısı gerektirmez. Tüm içerik uygulama içinde yerel olarak depolanmıştır. İnternet yalnızca reklam gösterimi için kullanılmaktadır.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">5</span> Çocukların Gizliliği</h2>
+      <p>Uygulama, 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan bilerek veri toplanmamaktadır.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">6</span> Değişiklikler</h2>
+      <p>Bu politikayı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayımlanacaktır.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">7</span> İletişim</h2>
+      <p>Sorularınız için: <a href="mailto:bugsbunnylab@gmail.com">bugsbunnylab@gmail.com</a></p>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div id="en" class="section">
+    <div class="card">
+      <h2><span class="num">1</span> Overview</h2>
+      <p>Kuran Hatim is developed by Bugs Bunny Lab. This privacy policy explains what data is collected and how it is used when you use the app.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">2</span> Data Collected</h2>
+      <span class="badge">📱 On-device only</span>
+      <p>The app stores the following data <strong>locally on your device only</strong>:</p>
+      <p>• Quran reading progress (current verse)<br>
+         • Notification preferences (on/off)<br>
+         • Number of completed hatims</p>
+      <p>This data is never transmitted to our servers and never shared with third parties. No account is required.</p>
+      <br>
+      <span class="badge">📢 Advertising (Google AdMob)</span>
+      <p>The app displays advertisements via Google AdMob. AdMob may collect device information and advertising ID. See: <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">3</span> Notifications</h2>
+      <p>The app sends local notifications to deliver Quran verses. These notifications are generated entirely on your device. No data is sent to external servers. You can revoke notification permission at any time in your device settings.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">4</span> Internet Connection</h2>
+      <p>The app does not require internet access for Quran content. All content is stored locally within the app. Internet is used only for displaying advertisements.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">5</span> Children's Privacy</h2>
+      <p>The app is not directed at children under 13, and we do not knowingly collect data from this age group.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">6</span> Changes</h2>
+      <p>We may update this policy occasionally. Changes will be published on this page.</p>
+    </div>
+
+    <div class="card">
+      <h2><span class="num">7</span> Contact</h2>
+      <p>For questions: <a href="mailto:bugsbunnylab@gmail.com">bugsbunnylab@gmail.com</a></p>
+    </div>
+  </div>
+</main>
+
+<footer>© 2026 Bugs Bunny Lab · Kuran Hatim</footer>
+
+<script>
+  let lang = 'tr';
+  function switchLang() {
+    lang = lang === 'tr' ? 'en' : 'tr';
+    document.getElementById('tr').classList.toggle('active', lang === 'tr');
+    document.getElementById('en').classList.toggle('active', lang === 'en');
+    document.querySelector('.lang-switch button').textContent =
+      lang === 'tr' ? '🌐 Switch to English' : '🌐 Türkçeye Geç';
+  }
+</script>
+
+</body>
+</html>
